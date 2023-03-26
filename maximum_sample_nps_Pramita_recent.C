@@ -29,7 +29,7 @@ tuple<int,int> testcolrow(int PMT)
 
 // nblock_column == 1 -- SHOWER_NCOLS
 
-void maximum_sample_nps_Pramita_recent( int nblock_column=-1, Int_t nrun=24 )
+void maximum_sample_nps_Pramita_recent (Int_t nrun=24, int nblock_column=-1)
 {
 
   // Check the argument(s)
