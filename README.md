@@ -41,5 +41,19 @@ The script outputs the good time corresponding to the maximum amplitude and aver
 
 ## specific_PMT_NPS_EEL108.C
 Parameter: run number, PMT number, and the first event to be displayed.
-
 The script  creates a bunch of events (In this case it's 25 events) for individual PMT.
+
+## number_of_hits.C
+Parameters : run number
+The two dimensional map of the hits is shown in the histogram obtained.                            
+The  number of Block hit per event for run  14464 is also shown.
+
+## specific_PMT.C
+Parameters: run number, PMT and the first event to be displayed
+This script shows   consecutive events for a specific block. The example  shows 25 events for PMT 8 on the positive side.
+
+## Average_pulse_integral.C
+Parameter:  run number
+This scripts creates an histogram for the  average pulse integral for positive and negative PMTs.
+Additionally, the  distributions of  pulse integral per PMT is also plotted.
+The pulse integral is calculated over 175 samples.
